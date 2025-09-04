@@ -29,7 +29,7 @@ const Header = () => {
                   className={({ isActive }) =>
                     ` ${isActive ? "text-[#0EA5E9] underline" : "text-white "} `
                   }
-                  to={"/user"}
+                  to={"/users"}
                 >
                   User
                 </NavLink>
