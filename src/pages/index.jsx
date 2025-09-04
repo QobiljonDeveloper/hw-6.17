@@ -5,6 +5,7 @@ import Home from "./home";
 import ProductDetails from "./produc-details";
 import Users from "./user";
 import UserDetails from "./user-details";
+import Login from "./login";
 
 const AppRoutes = () => {
   return (
@@ -16,7 +17,7 @@ const AppRoutes = () => {
           <Route path="/users" element={<Users />} />
           <Route path="/users/:id" element={<UserDetails />} />
         </Route>
-        {/* <Route path="/login" element={<Login />} /> */}
+        <Route path="/login" element={<Login />} />
       </Routes>
     </>
   );
